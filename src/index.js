@@ -26,8 +26,8 @@ function fetchBreeds() {
 }
 
 // add each breed to the page as a list item
-// also invokes changeColor() to add an event listener to each li
-// and toggle()...
+// invokes changeColor() to add an event listener to each li
+// and invokes filter() to add an event listener to the select dropdown
 function addBreeds(breeds) {
   let ul = document.querySelector("ul#dog-breeds")
 
@@ -51,8 +51,7 @@ function changeColor() {
   })
 }
 
-// after loading all dog breeds on to the page
-// allow the user to filter the breed list based on dropdown letter selection
+// after loading all breeds, allow user to filter breed list based on dropdown selection
 // *can't iterate over HTMLCollection or NodeList with forEach*
 function filter() {
   let select = document.getElementById("breed-dropdown")
