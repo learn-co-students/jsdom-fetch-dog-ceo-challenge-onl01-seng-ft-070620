@@ -36,9 +36,7 @@ function readyFilter(breeds)
 function filterBreeds(breeds, value)
 {
     let filteredBreeds = []
-    console.log(breeds[0])
     breeds.forEach(breed => {
-        console.log("inside of loop")
         if (breed.startsWith(value))
         {
             filteredBreeds.push(breed)
