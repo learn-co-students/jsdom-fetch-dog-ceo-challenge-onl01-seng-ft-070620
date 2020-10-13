@@ -1,4 +1,4 @@
-# Fetch Dog CEO Challenge
+# Fetch Dog CEO Challenge 
 
 ## Challenge 1
 
